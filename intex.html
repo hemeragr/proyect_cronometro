@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro con JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css
+    ">
+    <style>
+		.mdi {
+			font-size: 3rem;
+		}
+
+		#tiempoTranscurrido {
+			font-size: 4rem;
+		}
+	</style>
+
+</head>
+<body>
+    <body>
+        <section class="section">
+            <div class="columns">
+                <div class="column ">
+                    <h2 id="tiempoTranscurrido"></h2>
+                    <div class="buttons">
+                    <button class="button " id="btnIniciar"><span class="mdi mdi-play"></span></button>
+                    <button class="button " id="btnPausar"><span class="mdi mdi-pause"></span></button>
+                    <button class="button " id="btnMarca"><span class="mdi mdi-flag"></span></button>
+                    <button class="button " id="btnDetener"><span class="mdi mdi-stop"></span></button>
+                </div>
+                    <div id="contenedorMarcas">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
